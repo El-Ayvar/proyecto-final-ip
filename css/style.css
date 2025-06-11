@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Frontman';
+    src: url(../assets/fonts/The\ Frontman.ttf)
+}
+
+@font-face {
+    font-family: 'Rocker';
+    src: url(../assets/fonts/NewRocker-Regular.ttf)
+}
+
+body {
+    align-items:center;
+    background: url("../assets/img/fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family:"Frontman", sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.box-social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    width: 13vw;
+    font-size: 2vw;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family:"Frontman", sans-serif;
+}
+
+#contenedor-input {
+    font-size: 4vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+#ip-input {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 12px;
+    width: 33vw;
+    font-family:"Rocker", sans-serif;
+    font-size: 3.3vw;
+}
+
+.escopeta {
+    width: 20vw;
+}
+
+input::placeholder {
+    font-size: 3.3vw;
+    font-family:"Frontman", sans-serif;
+}
+
+.logo {
+    width: 3vw;
+}
+
+.resuls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vw;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+}
+
+header p {
+    font-size: 4vw;
+}
+
+#info-personal{
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#redes-sociales {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(31, 31, 31);
+    flex-direction: row;
+    font-family: "Rocker", sans-serif;
+    font-size: 3vw;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+.box-social {
+    color: white;
+}
+ 
+#box-informacion {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.5);;
+    color: black;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+    font-family: "Rocker", sans-serif;
+    height: 50vh;
+    width: 80vw;
+}

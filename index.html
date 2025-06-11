@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <title>Buscador de ID</title>
+</head>
+<body>
+    <header>
+        <h1>Geolocalizador de ip</h1>
+        <div id="contenedor-input">
+            <p>Ingresa tu ip</p>
+            <input 
+            type="text"
+            name="ip-input"
+            id="ip-input"
+            placeholder="Escribe la IP">
+            <button type="button" id="search-btn">Buscar</button>
+        </div>
+    </header>
+    <main id="container">
+        <article id="ip-info"></article>
+        <div id="status-container">
+            <div id="loader" class="hidden"><p id="load">Obteniendo información...</p></div>
+            <div id="resultado" class="hidden"></div>
+        </div>
+    </main>
+    <footer>
+        <div id="info-personal">
+            <p>
+                <strong>Desarrollador:</strong> Jorge Jacinto Ayvar
+            </p>
+            <p>
+                <strong>Profesor:</strong> César López Godoy
+            </p>
+            <p>
+                <strong>Proyecto escolar</strong>
+            </p>
+        </div>
+        <div id="redes-sociales">
+            <a class="box-social" href="https://www.instagram.com/jacintoayvar/" target="_blank">
+            <p class="box-social"><strong>Instagram:</strong> JacintoAyvar
+                <img class="logo" src="assets/img/instagram.png" alt="logo de instagram">
+            </p></a>
+            <a class="box-social" href="https://www.facebook.com/jorge.jacintoayvar" target="-blank">
+            <p class="box-social"><strong>Facebook:</strong> JorgeAyvar
+                <img class="logo" src="assets/img/facebook.png" alt="logo de facebook">
+            </p></a>
+            <a href="https://wa.me/527443216963?text=Eres,%20la%20mera%20Verga!" target="_blank">
+            <p class="box-social"><strong>Whatsapp:</strong> 7443216963
+                <img class="logo" src="assets/img/whatsapp.png" alt="logo de whatsapp">
+            </p></a>
+        </div>
+    </footer>
+</body>
+</html>
