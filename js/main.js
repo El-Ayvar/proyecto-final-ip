@@ -41,15 +41,15 @@ function showIp(ip) {
     ipInfo.innerHTML = `
     <main id="box-informacion">
         <h2 id="title-ip">Tu IP es: ${ip.ip.toUpperCase()}</h2>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>País:</strong> ${ip.country}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Cod, País:</strong> ${ip.country_code}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Continente:</strong> ${ip.continent}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Horario:</strong> ${ip.time_zone}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Tiene una latitud de:</strong> ${ip.latitude}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Tiene una longitud de:</strong> ${ip.longitude}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Codigo Postal:</strong> ${ip.postal_code}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Red:</strong> ${ip.network}</div>
-            <div class="resuls"><img class="escopeta" src="../assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Ciudad:</strong> ${ip.city}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>País:</strong> ${ip.country}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Cod, País:</strong> ${ip.country_code}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Continente:</strong> ${ip.continent}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Horario:</strong> ${ip.time_zone}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Tiene una latitud de:</strong> ${ip.latitude}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Tiene una longitud de:</strong> ${ip.longitude}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Codigo Postal:</strong> ${ip.postal_code}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Red:</strong> ${ip.network}</div>
+            <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Ciudad:</strong> ${ip.city}</div>
     </main>
     `;
 }
