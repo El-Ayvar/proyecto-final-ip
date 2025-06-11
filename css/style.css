@@ -181,62 +181,17 @@ input::placeholder {
         height: 5vh;
     }
 }
-    
+
 @media (min-width: 769.98px) {
+
     body {
         background-image: url("../assets/img/Fondo-laptop.jpeg");
     }
-
-    footer {
-        font-size: 1.2vw;
-    }
-
-    .logo { 
-        width: 1.3vw;
-    }
-
-    #info-personal {
-        flex-direction: row;
-        align-items: center;
-        width: 50vw;
-    }
-
+    
     .box-social {
         width: 15vw;
     }
-
-    #redes-sociales {
-        align-items: center;
-        width: 50vw;
-        flex-direction: row;
-    }
-
-    header h1 {
-        font-size: 5vw;
-    }
-
-    #contenedor-input p {
-        font-size: 2vw;
-    }
-
-    #contenedor-input {
-        width: 60vw;
-    }
-
-    #ip-input {
-        width: 20vw;
-        height: 5vh;
-    }
-
-    button {
-        font-size: 1.5vw;
-        height: 5vh;
-    }
-
-    input::placeholder {
-        font-size: 1.5vw;
-    }
-
+    
     #box-informacion {
         background-color: rgba(130, 127, 127, 0.7);
         color: white;
@@ -247,12 +202,58 @@ input::placeholder {
         font-size: 3vw;
     }
 
+    button {
+        font-size: 1.5vw;
+        height: 5vh;
+    }
+
+    #contenedor-input {
+        width: 60vw;
+    }
+    
+    #contenedor-input p {
+        font-size: 2vw;
+    }
+    
+    .escopeta {
+        width: 8vw;
+    }
+    
+    footer {
+        font-size: 1.2vw;
+    }
+        
+    header h1 {
+        font-size: 5vw;
+    }
+    
+    #info-personal {
+        flex-direction: row;
+        align-items: center;
+        width: 50vw;
+    }
+    
+    #ip-input {
+        width: 20vw;
+        height: 5vh;
+    }
+            
+    input::placeholder {
+        font-size: 1.5vw;
+    }
+    
+    .logo { 
+        width: 1.3vw;
+    }
+    
+    #redes-sociales {
+        align-items: center;
+        width: 50vw;
+        flex-direction: row;
+    }
+
     .resuls {
         width: 35vw;
         font-size: 1.6vw;
-    }
-
-    .escopeta {
-        width: 8vw;
     }
 }
