@@ -2,12 +2,18 @@ const btnSearch = document.querySelector("#search-btn");
 const resultado = document.querySelector("#resultado");
 const loader = document.querySelector("#loader");
 
+document.getElementById("ip-input").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        document.getElementById("search-btn").click();
+    }
+})
+
 const searchIp = () => {
     const ipName = document.querySelector("#ip-input").value.trim();
     const ipInfo = document.querySelector("#ip-info");
 
     if (!ipName) {
-        ipInfo.innerHTML = `<p>Por favor ingresa una IP válida.</p>`;
+        ipInfo.innerHTML = `<p>Por favor ingresa una IP valida</p>`;
         return;
     }
 

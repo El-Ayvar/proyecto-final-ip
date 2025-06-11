@@ -25,41 +25,99 @@ body {
     flex-direction: column;
     font-family:"Frontman", sans-serif;
     font-size: 16px;
+    height: 100vh;
     justify-content: space-between;
     overflow-x: hidden;
-    height: 100vh;
+}
+
+#box-informacion {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rocker", sans-serif;
+    height: 50vh;
+    justify-content: space-around;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+    width: 80vw;
 }
 
 .box-social {
+    align-items: center;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+}
+
+.box-social {
+    color: white;
 }
 
 button {
-    width: 13vw;
-    font-size: 2vw;
+    align-items: center;
     border-radius: 12px;
+    display: flex;
     cursor: pointer;
     font-family:"Frontman", sans-serif;
+    font-size: 2vw;
+    justify-content: center;
+    width: 13vw;
 }
 
 #contenedor-input {
-    font-size: 4vw;
     display: flex;
+    font-size: 4vw;
     justify-content: space-evenly;
     width: 100vw;
 }
 
-#ip-input {
-    border-radius: 12px;
-    width: 33vw;
-    font-family:"Rocker", sans-serif;
-    font-size: 3.3vw;
-}
-
 .escopeta {
     width: 20vw;
+}
+
+footer {
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: row;
+    font-family: "Rocker", sans-serif;
+    font-size: 3vw;
+    height: 10vh;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5vw;
+    height: 15vh;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+header p {
+    font-size: 4vw;
+}
+
+#ip-input {
+    border-radius: 12px;
+    font-family:"Rocker", sans-serif;
+    font-size: 3.3vw;
+    width: 33vw;
+}
+
+#info-personal{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    justify-content: space-around;
 }
 
 input::placeholder {
@@ -72,69 +130,129 @@ input::placeholder {
 }
 
 .resuls {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 }
 
-.hidden {
-    display: none;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    font-size: 2.5vw;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 15vh;
-    width: 100vw;
-}
-
-header p {
-    font-size: 4vw;
-}
-
-#info-personal{
-    align-items: center;
-    height: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 #redes-sociales {
-    height: 10vh;
     display: flex;
     flex-direction: column;
+    height: 10vh;
     justify-content: space-around;
 }
 
-footer {
-    display: flex;
-    background-color: rgb(31, 31, 31);
-    flex-direction: row;
-    font-family: "Rocker", sans-serif;
-    font-size: 3vw;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
-    width: 100vw;
-}
+@media (min-width: 481.98px) {
+    body {
+        background-image: url("../assets/img/fondo-tablet.jpeg");
+        color: white;
+        text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000;
+    }
+    
+    #box-informacion {
+        height: 60vh;
+        width: 70vw;
+    }
+    
+    button {
+        height: 6vh;
+    }
 
-.box-social {
-    color: white;
+    #contenedor-input p{
+        font-size: 3.5vw;
+    }
+    
+    footer {
+        font-size: 2vw;
+        height: 12vh;
+    }
+
+    header h1 {
+        font-size: 6vw;
+    }
+
+    #ip-input {
+        height: 6vh;
+    }
+
+
+    .resuls {
+        font-size: 3vw;
+        height: 5vh;
+    }
 }
- 
-#box-informacion {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.5);;
-    color: black;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
-    font-family: "Rocker", sans-serif;
-    height: 50vh;
-    width: 80vw;
+    
+@media (min-width: 769.98px) {
+    body {
+        background-image: url("../assets/img/Fondo-laptop.jpeg");
+    }
+
+    footer {
+        font-size: 1.2vw;
+    }
+
+    .logo { 
+        width: 1.3vw;
+    }
+
+    #info-personal {
+        flex-direction: row;
+        align-items: center;
+        width: 50vw;
+    }
+
+    .box-social {
+        width: 15vw;
+    }
+
+    #redes-sociales {
+        align-items: center;
+        width: 50vw;
+        flex-direction: row;
+    }
+
+    header h1 {
+        font-size: 5vw;
+    }
+
+    #contenedor-input p {
+        font-size: 2vw;
+    }
+
+    #contenedor-input {
+        width: 60vw;
+    }
+
+    #ip-input {
+        width: 20vw;
+        height: 5vh;
+    }
+
+    button {
+        font-size: 1.5vw;
+        height: 5vh;
+    }
+
+    input::placeholder {
+        font-size: 1.5vw;
+    }
+
+    #box-informacion {
+        background-color: rgba(130, 127, 127, 0.7);
+        color: white;
+        text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000;
+        height: 45vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 3vw;
+    }
+
+    .resuls {
+        width: 35vw;
+        font-size: 1.6vw;
+    }
+
+    .escopeta {
+        width: 8vw;
+    }
 }
