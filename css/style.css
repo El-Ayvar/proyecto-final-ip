@@ -52,6 +52,7 @@ button {
 }
 
 #ip-input {
+    color: white;
     border: 2px solid rgb(255, 255, 255);
     background-color: black;
     border-radius: 12px;
