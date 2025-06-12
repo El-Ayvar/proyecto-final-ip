@@ -1,16 +1,16 @@
-const btnSearch = document.querySelector("#search-btn");
+const btnSearch = document.querySelector("#search_btn");
 const resultado = document.querySelector("#resultado");
 const loader = document.querySelector("#loader");
 
-document.getElementById("ip-input").addEventListener("keypress", function(event) {
+document.getElementById("ip_input").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-        document.getElementById("search-btn").click();
+        document.getElementById("search_btn").click();
     }
 })
 
 const searchIp = () => {
-    const ipName = document.querySelector("#ip-input").value.trim();
-    const ipInfo = document.querySelector("#ip-info");
+    const ipName = document.querySelector("#ip_input").value.trim();
+    const ipInfo = document.querySelector("#ip_info");
 
     if (!ipName) {
         ipInfo.innerHTML = `<p>Por favor ingresa una IP valida</p>`;
@@ -36,17 +36,17 @@ const searchIp = () => {
         })
         .catch(error => {
             loader.classList.add("hidden");
-            ipInfo.innerHTML = `<p id="mensaje-error">${error.message}</p>`;
+            ipInfo.innerHTML = `<p id="mensaje_error">${error.message}</p>`;
         });
 };
 
 function showIp(ip) {
-    const ipInfo = document.querySelector("#ip-info");
+    const ipInfo = document.querySelector("#ip_info");
 
 
     ipInfo.innerHTML = `
-    <main id="box-informacion">
-        <h2 id="title-ip">Tu IP es: ${ip.ip.toUpperCase()}</h2>
+    <main id="box_informacion">
+        <h2 id="title_ip">Tu IP es: ${ip.ip.toUpperCase()}</h2>
             <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>País:</strong> ${ip.country}</div>
             <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Cod, País:</strong> ${ip.country_code}</div>
             <div class="resuls"><img class="escopeta" src="assets/img/escopeta.png" alt="imagen de una escopeta"><strong>Continente:</strong> ${ip.continent}</div>

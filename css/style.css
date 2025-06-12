@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
 }
 
-#box-informacion {
+#box_informacion {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.5);;
     color: black;
@@ -43,13 +43,13 @@ body {
     width: 80vw;
 }
 
-.box-social {
+.box_social {
     align-items: center;
     display: flex;
     justify-content: space-evenly;
 }
 
-.box-social {
+.box_social {
     color: white;
 }
 
@@ -64,7 +64,7 @@ button {
     width: 13vw;
 }
 
-#contenedor-input {
+#contenedor_input {
     display: flex;
     font-size: 4vw;
     justify-content: space-evenly;
@@ -105,14 +105,14 @@ header p {
     font-size: 4vw;
 }
 
-#ip-input {
+#ip_input {
     border-radius: 12px;
     font-family:"Rocker", sans-serif;
     font-size: 3.3vw;
     width: 33vw;
 }
 
-#info-personal{
+#info_personal{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ input::placeholder {
     justify-content: center;
 }
 
-#redes-sociales {
+#redes_sociales {
     display: flex;
     flex-direction: column;
     height: 10vh;
@@ -149,7 +149,7 @@ input::placeholder {
         text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000;
     }
     
-    #box-informacion {
+    #box_informacion {
         height: 60vh;
         width: 70vw;
     }
@@ -158,7 +158,7 @@ input::placeholder {
         height: 6vh;
     }
 
-    #contenedor-input p{
+    #contenedor_input p{
         font-size: 3.5vw;
     }
     
@@ -171,7 +171,7 @@ input::placeholder {
         font-size: 6vw;
     }
 
-    #ip-input {
+    #ip_input {
         height: 6vh;
     }
 
@@ -188,11 +188,11 @@ input::placeholder {
         background-image: url("../assets/img/Fondo-laptop.jpeg");
     }
     
-    .box-social {
+    .box_social {
         width: 15vw;
     }
     
-    #box-informacion {
+    #box_informacion {
         background-color: rgba(130, 127, 127, 0.7);
         color: white;
         text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 15px #000000;
@@ -207,11 +207,11 @@ input::placeholder {
         height: 5vh;
     }
 
-    #contenedor-input {
+    #contenedor_input {
         width: 60vw;
     }
     
-    #contenedor-input p {
+    #contenedor_input p {
         font-size: 2vw;
     }
     
@@ -227,13 +227,13 @@ input::placeholder {
         font-size: 5vw;
     }
     
-    #info-personal {
+    #info_personal {
         flex-direction: row;
         align-items: center;
         width: 50vw;
     }
     
-    #ip-input {
+    #ip_input {
         width: 20vw;
         height: 5vh;
     }
@@ -246,7 +246,7 @@ input::placeholder {
         width: 1.3vw;
     }
     
-    #redes-sociales {
+    #redes_sociales {
         align-items: center;
         width: 50vw;
         flex-direction: row;
